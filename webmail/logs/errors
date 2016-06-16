@@ -1,0 +1,9 @@
+[26-May-2016 02:55:56 +0200]: <7a2471j5> DB Error: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+ in D:\xampp\htdocs\526\roundcubemail\program\lib\Roundcube\rcube_db.php on line 173 (GET /526/roundcubemail/)
+[26-May-2016 02:55:56 +0200]: <7a2471j5> PHP Error: config.inc.php was not found. (GET /526/roundcubemail/)
+[26-May-2016 02:56:54 +0200]: <7a2471j5> DB Error: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+ in D:\xampp\htdocs\526\roundcubemail\program\lib\Roundcube\rcube_db.php on line 173 (GET /526/roundcubemail/)
+[26-May-2016 02:56:54 +0200]: <7a2471j5> PHP Error: config.inc.php was not found. (GET /526/roundcubemail/)
+[28-May-2016 03:46:20 +0200]: <lmd5sujr> DB Error: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+ in D:\xampp\htdocs\526\roundcubemail\program\lib\Roundcube\rcube_db.php on line 173 (GET /526/roundcubemail/)
+[28-May-2016 03:46:20 +0200]: <lmd5sujr> PHP Error: config.inc.php was not found. (GET /526/roundcubemail/)
