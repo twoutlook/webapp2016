@@ -255,18 +255,18 @@
                 spResult = form1.ZAZFingerActivex.ZAZSearchFinger(spfpstart, spfpend);
 
 
-
+                var timeStr="<h3>" +Date()+"<h3>";
 
                 if (spResult == "0")
                 {
                     var fpidd = form1.ZAZFingerActivex.SearchID;
                     //     alert("搜索到相同指纹ID：" + fpidd);
-                    x.innerHTML = "<h1>" +Date()+ "<br>Got ID=" + fpidd + "</h1>";
-
+                    x.innerHTML = "<h1>ID is " + fpidd + "</h1>"+timeStr;
+ 
                 } else
                 {
                     //      alert("搜索失败");
-                    x.innerHTML = "<h1>" +Date()+ "<br>Not found, please try again!" + "</h1>";
+                    x.innerHTML = "<h1>Not found, Please try again!" + "</h1>"+timeStr;
 
                 }
 
