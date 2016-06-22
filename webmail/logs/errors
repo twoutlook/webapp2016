@@ -7,5 +7,11 @@
 [28-May-2016 03:46:20 +0200]: <lmd5sujr> DB Error: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
  in D:\xampp\htdocs\526\roundcubemail\program\lib\Roundcube\rcube_db.php on line 173 (GET /526/roundcubemail/)
 [28-May-2016 03:46:20 +0200]: <lmd5sujr> PHP Error: config.inc.php was not found. (GET /526/roundcubemail/)
+<<<<<<< HEAD
+[22-Jun-2016 14:07:49 +0800]: <clu8kmm6> IMAP Error: Login failed for support@skyrock-casting.org from 222.92.254.194. AUTHENTICATE PLAIN: Authentication failed. in /var/www/html/webapp2016/webmail/program/lib/Roundcube/rcube_imap.php on line 193 (POST /webapp2016/webmail/?_task=login&_action=login)
+[22-Jun-2016 16:30:24 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/webapp2016/webmail/test6.php on line 51
+[22-Jun-2016 16:33:36 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/webapp2016/webmail/know-user.php on line 51
+=======
 [22-Jun-2016 08:29:54 +0200]: <qi82i4q8> DB Error: SQLSTATE[HY000] [1045] Access denied for user 'roundcube'@'localhost' (using password: NO) in D:\xampp\htdocs\2016\webmail\program\lib\Roundcube\rcube_db.php on line 173 (GET /2016/webmail/)
 [22-Jun-2016 08:29:54 +0200]: <qi82i4q8> PHP Error: config.inc.php was not found. (GET /2016/webmail/)
+>>>>>>> 0d0d9f56b62e711d8ed008324d4d03acdac86960
