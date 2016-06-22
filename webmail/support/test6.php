@@ -37,7 +37,7 @@
   +-------------------------------------------------------------------------+
  */
 // include environment
-require_once 'program/include/iniset.php';
+require_once '../program/include/iniset.php';
 
 // init application, start session, init output class, etc.
 $RCMAIL = rcmail::get_instance(0, $GLOBALS['env']);
