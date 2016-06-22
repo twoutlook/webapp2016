@@ -7,3 +7,5 @@
 [28-May-2016 03:46:20 +0200]: <lmd5sujr> DB Error: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
  in D:\xampp\htdocs\526\roundcubemail\program\lib\Roundcube\rcube_db.php on line 173 (GET /526/roundcubemail/)
 [28-May-2016 03:46:20 +0200]: <lmd5sujr> PHP Error: config.inc.php was not found. (GET /526/roundcubemail/)
+[22-Jun-2016 08:29:54 +0200]: <qi82i4q8> DB Error: SQLSTATE[HY000] [1045] Access denied for user 'roundcube'@'localhost' (using password: NO) in D:\xampp\htdocs\2016\webmail\program\lib\Roundcube\rcube_db.php on line 173 (GET /2016/webmail/)
+[22-Jun-2016 08:29:54 +0200]: <qi82i4q8> PHP Error: config.inc.php was not found. (GET /2016/webmail/)
