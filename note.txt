@@ -3,3 +3,4 @@ note.txt of portal.skyrock-casting.org
 2016-06-18 16:00 roundcubemail, webmail is ok on portal.skyrock-casting.org, roundcube is not
 2016-06-20 13:00 fingerprint,
 2016-06-22 11:58 wordpress, WordPress 4.5.3 
+2016-06-22 16:00 add support folder, to see login user 
