@@ -38,6 +38,10 @@
  */
 // include environment
 //require_once 'program/include/iniset.php';
+echo "any problem for require_once???";
+return;
+
+
 require_once '../webmail/program/include/iniset.php';
 
 
