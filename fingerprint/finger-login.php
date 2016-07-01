@@ -284,21 +284,24 @@
                     //     alert("搜索到相同指纹ID：" + fpidd);
 //                    x.innerHTML = "<h1>" +Date()+ "<br>Got ID=" + fpidd + "</h1>";
                     // x.innerHTML = fpidd;
-                    $.post("fpSearch.php", {id: form1.ZAZFingerActivex.SearchID})
+                    $.post("finger-login-checker.php", {finger_id: form1.ZAZFingerActivex.SearchID,device_id:"abc987"})
                             .done(function (data) {
                                 if (data === "ok999") {
                                     x.innerHTML = "";
                                     $("#TOGO").show(500);
                                     //   alert("msg: " + data);
-                                }
-                                //  location:"page2.html";
+                                } else {
+                                    $("#TOGO").hide(500);
+                                   //       alert("DEBUG: "+data);
+                                    x.innerHTML = "<h1>(finger-login-checker)指紋機或指紋ID未註冊到本應用，請回饋給應用管理人員。</h1>" + "<h3>" + Date() + "</h3>";
+                                }                              
                             });
 
                 } else
                 {
                     $("#TOGO").hide(500);
                     //      alert("搜索失败");
-                    x.innerHTML = "<h1>指紋輸入不成功，請點擊 [ 輸入指纹 ] 再試一次</h1>" + "<h3>" + Date() + "</h3>";
+                    x.innerHTML = "<h1>(finger-login-checker)指紋輸入不成功，請點擊 [ 輸入指纹 ] 再試一次</h1>" + "<h3>" + Date() + "</h3>";
 
                 }
 
