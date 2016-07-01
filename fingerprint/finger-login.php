@@ -284,7 +284,7 @@
                     //     alert("搜索到相同指纹ID：" + fpidd);
 //                    x.innerHTML = "<h1>" +Date()+ "<br>Got ID=" + fpidd + "</h1>";
                     // x.innerHTML = fpidd;
-                    $.post("finger-login-checker.php", {finger_id: form1.ZAZFingerActivex.SearchID,device_id:"abc987"})
+                    $.post("finger-login-checker-v2.php", {finger_id: form1.ZAZFingerActivex.SearchID,device_id:"abc987"})
                             .done(function (data) {
                                 if (data === "ok999") {
                                     x.innerHTML = "";
@@ -334,7 +334,7 @@
     <body>
         <center>
 
-            <h1>Read Fingerprint</h1>
+            <h1><u>指紋登錄</u></h1>
 
             <form action="" method="post" name="form1" id="form1"> 
 
@@ -475,7 +475,7 @@
                     <br></br>
 
                 </div>
-                <div id="showResult">( show result )
+                <div id="showResult">
                 </div>
             </form>
         </center>
